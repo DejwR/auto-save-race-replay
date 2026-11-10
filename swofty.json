@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "dejw.auto-save-race-replay",
+  "name": "Auto Save Race Replay",
+  "version": "1.0.1",
+  "author": "dejw",
+  "description": "Automatically saves full offline race replays for playback in Theatre.",
+  "icon": "icon.png",
+  "kind": [
+    "native"
+  ],
+  "category": "utility",
+  "compat": {
+    "game": "f1_25",
+    "game_builds": [
+      "=25251167"
+    ],
+    "launcher": ">=1.8.35"
+  },
+  "operations": {
+    "native": [
+      {
+        "dll": "native/auto_save_race_replay.dll"
+      }
+    ]
+  },
+  "repository": "https://github.com/DejwR/auto-save-race-replay"
+}
